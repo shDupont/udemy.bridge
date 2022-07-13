@@ -1,2 +1,6 @@
-package platforms;public interface IPlatform {
+package platforms;
+
+public interface IPlatform {
+    void configureRMTP();
+    void authToken();
 }

@@ -1,2 +1,7 @@
-package transmissions;public interface ITransmission {
+package transmissions;
+
+public interface ITransmission {
+    void broadcasting();
+    void result();
+    void recording();
 }
